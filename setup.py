@@ -10,7 +10,7 @@ setup(
     author="Argoneon1810",
     author_email="jinhoon.choi.97@gmail.com",
     url="https://github.com/Argoneon1810/circular-buffer",
-    py_modules=["circular_buffer"],
+    packages=find_packages(),
     install_requires=[
         "numpy",
         "torch",
